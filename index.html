@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='slightbox.css' rel='stylesheet' type='text/css'>
+    
+    <title>Slightbox | An accessible, lightweight lightbox in vanilla JavaScript</title>
+    <style>
+        .slightbox-container a {
+            display: inline-block;
+            max-width: 20%;
+        }
+        
+        .slightbox-container a img {
+            max-width: 100%;   
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Slightbox</h1>
+    <h2>An accessible, lightweight lightbox in vanilla JavaScript</h2>
+    <p>Features:</p>
+    <ul>
+        <li>Around 8kb minified</li>
+        <li>No need for jQuery or any other library</li>
+        <li>Mobile and touch-friendly</li>
+        <li>Accessible and keyboard friendly</li>
+        <li>Minimal styling—customize look and feel with CSS</li>
+    </ul>
+            
+    <div class="slightbox-container">
+        
+        <a href="img/18H.jpg"><img src="img/18H.jpg" alt="Close up of a cat's nose" title="This is the title of the image passed along as the caption."></a>
+        <a href="img/35H.jpg"><img src="img/35H.jpg" alt="Photographer photographing a pianist" title="This is an extra long caption. Meggings farm-to-table Pitchfork, dreamcatcher put a bird on it PBR&B Neutra meditation 8-bit Kickstarter skateboard pour-over. American Apparel post-ironic mlkshk cornhole. Helvetica gluten-free bespoke, heirloom bicycle rights messenger bag cold-pressed butcher Neutra slow-carb stumptown church-key squid. Mustache sartorial twee, banh mi ethical actually art party Intelligentsia Echo Park retro beard ugh."></a>
+        <a href="img/36H.jpg"><img src="img/36H.jpg" alt="Two slender trees in front of a brick wall" title="Hey, Bob. Hey, Larry."></a>
+        <a href="img/49H.jpg"><img src="img/49H.jpg" alt="Ladybug on a white background." title="The markings over my face look like a sad Pringles man."></a>
+        <a href="img/54H.jpg"><img src="img/54H.jpg" alt="Old rusty red truck in light snow" title="This is a red truck."></a>
+        <a href="img/56H.jpg"><img src="img/56H.jpg" alt="Close up of clothes pins on a clothesline" title="I only wear line-dried clothes while listening to vinyl."></a>
+        <a href="img/75H.jpg"><img src="img/75H.jpg" alt="Ducks looking majestic" title="Aww Yiss."></a>
+        <a href="img/77H.jpg"><img src="img/77H.jpg" alt="Old Volkswagen Beetle being worked on with license plate saying 'Dinocar'" title="Because that was necessary to do to a car."></a>
+        <a href="img/79H.jpg"><img src="img/79H.jpg" alt="Vintage radio with microphone" title="For hipster doomsday preppers."></a>
+        <a href="img/110H.jpg"><img src="img/110H.jpg" alt="Vintage storefront window containing a tuba, furniture, and 'closed' sign" title="Decorative tubas."></a>
+        <a href="img/131H.jpg"><img src="img/131H.jpg" alt="Close up of vintage Vespa scooter" title="My other car is also a Vespa."></a>
+        <a href="img/132H.jpg"><img src="img/132H.jpg" alt="Vintage Rolex watchon red old boards" title="Do you have any idea how much it costs to look this legit?"></a>
+        <a href="img/133H.jpg"><img src="img/133H.jpg" alt="Old typewriter thingy I don't know what it is." title="80% likelihood the operator of this device has a handlebar moustache."></a>
+
+    </div><!-- end slighbox-container -->
+    
+    <p>All images courtesy of <a href="http://www.gratisography.com">http://www.gratisography.com</a>.</p>
+    
+    <script src="slightbox.js"></script>
+    <script>slightBox.make();</script>
+    
+</body>
+</html>

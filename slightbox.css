@@ -1,0 +1,138 @@
+/* ============= Look & Feel ============= */
+
+/* The main figure element that serves as the overlay */
+#slightbox {
+    background: rgba(0,0,0,.8);
+}
+
+/* The main image in the large view */
+#slightbox img {
+    max-width: 96%;
+    max-height: 96%;
+    border-radius: .25em;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+#slightbox img.slightbox-to-next {
+    transform: translate(999em, 0);
+    -webkit-transform: translate(999em, 0);
+    -moztransform: translate(999em, 0);
+}
+
+#slightbox img.slightbox-to-prev {
+    transform: translate(-999em, 0);
+    -webkit-transform: translate(-999em, 0);
+    -moztransform: translate(-999em, 0);
+}
+
+/* optional figcaption element taken from image's title attribute */
+.slightbox-caption {
+    color: rgba(255,255,255, .25);
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 60em;
+    margin: auto;
+    padding: 2em 0 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+.slightbox-caption-inner {
+    background: rgba(0,0,0, .7);
+    padding: 1em;
+    border-radius: .25em;
+}
+
+/* caption in active state (not hidden) */
+.slightbox-caption.slightbox-active { 
+    color: rgba(255,255,255, 1);
+    max-height: 60%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+/* buttons in the lightbox */
+#slightbox button {
+    border: none;
+    font-size: 1em;
+    position: absolute;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    padding: .25em;
+    border-radius: .25em;
+    font-family: sans-serif; 
+    font-weight: bold;
+}
+
+#slightbox button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 .25em #fff;
+}
+
+.slightbox-main-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 60em;
+}
+
+/* close button */
+.slightbox-close { 
+    right: 0;
+}
+
+.slightbox-prev {
+    left: 0;  
+}
+
+.slightbox-next {
+    left: 5em;   
+}
+
+.slightbox-caption-toggle {
+    top: 0;
+    left: 0;
+}
+
+/* ============= Required for Functionality ============= */
+
+/* The main figure element that serves as the overlay */
+#slightbox {
+    position: fixed; 
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+/* The main image in the large view */
+#slightbox img {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* this is how the box goes away */
+#slightbox.slightbox-hidden { display: none; }
+
+/* class added to the body to prevent it from scrolling in the background */
+.slightbox-noscroll { 
+    position: fixed;
+    overflow: hidden;
+}
