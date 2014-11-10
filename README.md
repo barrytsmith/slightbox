@@ -9,7 +9,7 @@ What the world needs is another lightbox, right? Well, maybe. I couldn't find an
 - Prioritized accessibility
 - Mobile friendly
 
-So I made Slightbox to do all of those things. Preview a [demo of slightbox](https://rawgit.com/thebarrytone/slightbox/master/index.html).
+So I made Slightbox to do all of those things. Preview a [demo of slightbox](https://rawgit.com/thebarrytone/slightbox/master/index.html) [note: this preview isn't working completely well on mobile devices].
 
 ###No jQuery
 
