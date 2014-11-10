@@ -2,7 +2,7 @@
 
 ##A tiny, responsive, and accessible image lightbox in vanilla javascript.
 
-What the world needs is another lightbox, right? Well, maybe. I couldn't find another image lightbox that satisfied all of these requirements:
+What the world needs is another lightbox, right? Well, maybe. I [couldn't find another](http://planetozh.com/projects/lightbox-clones/) image lightbox that satisfied all of these requirements:
 
 - Didn't use jQuery
 - Small in filesize (many were 50-100kb)
