@@ -29,6 +29,8 @@ Not only is it touch- and swipe-friendly, it is designed to work in a responsive
 
 ##Notes
 
+Read the how to on the [wiki](https://github.com/thebarrytone/slightbox/wiki).
+
 Currently, it doesn't look like it's the smartest way to handle the images. All full-sized images are being loaded with the rest of the page, then just made larger in the lightbox. I plan to extend this to support thumbnails and even just links to images. 
 
 The reason I've done it this particular way is because I built this for my personal site, and I'm loading the images at the user's request. Check out my implementation of it on [my personal site](http://barrytsmith.com).
