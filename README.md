@@ -5,7 +5,7 @@
 What the world needs is another lightbox, right? Well, maybe. I [couldn't find another](http://planetozh.com/projects/lightbox-clones/) image lightbox that satisfied all of these requirements:
 
 - Didn't use jQuery
-- Small in filesize (many were 50-100kb)
+- Small in filesize
 - Prioritized accessibility
 - Mobile friendly
 
